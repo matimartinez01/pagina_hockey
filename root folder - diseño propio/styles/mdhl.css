@@ -1,0 +1,98 @@
+body{
+    background-color: #96ac60;
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    width: 100%;
+    background-color: #31470b;
+    height: 80px;
+    box-sizing: border-box;
+    margin-bottom: 540px;
+}
+
+.titulo{
+    display: inline;
+    position: relative;
+    color: #96ac60;
+    font-size: 30px;
+    margin-left: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    bottom: 30px
+}
+
+.logo{
+    display: inline;
+    height: 80px;
+    width: 80px;
+    position: relative;
+    left: 20%
+}
+
+.navegador{
+    text-align: right;
+}
+
+.div_nav{
+    display: inline;
+    position: relative;
+    bottom: 55px;
+    margin-left: 8px;
+    margin-right: 5px;
+}
+
+.navegacion{
+    font-size: 18px;
+    color: #96ac60;
+    margin-right: 5px;
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: none;
+}
+
+.div_foto_head{
+    width: 80%;
+    margin: 20px auto 0px auto
+}
+
+.foto_head{
+    height: 500px;
+    position: relative;
+    bottom: 30px;
+    width: 100%;
+}
+
+.subtitulo{
+    color: #203500;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+.div_evento{
+    width: 70%;
+    margin: 0 auto 0 auto;
+}
+
+.evento{
+    color: #203500;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.p_evento{
+    font-size: 20px;
+    margin-left: 30px;
+    color: #203500;
+    margin-top: 0;
+}
+
+.contact{
+    font-size: 20px;
+}
+
+p > a{
+    color: #203500;
+    font-weight: bold;
+}
