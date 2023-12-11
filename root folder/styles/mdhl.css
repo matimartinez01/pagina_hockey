@@ -1,3 +1,9 @@
+
+body{
+    background-color: #96ac60;
+    color: #203500;
+}
+
 /* HEADER */
 
 header{
@@ -25,7 +31,20 @@ header{
 .div_nav{
     display: inline;
     margin-left: 6px;
-    background-color: green;
+    background-color: #31470b;;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    padding: 5px;
+    position: relative;
+    top: 15px;
+    box-shadow: 5px 3px 3px rgba(0, 0, 0, 0.473);
+}
+
+.div_nav_propio{
+    display: inline;
+    margin-left: 6px;
+    background-color: #808000;
     border-style: solid;
     border-color: black;
     border-width: 2px;
@@ -57,7 +76,9 @@ header{
     border-style: solid;
     border-color: black;
     border-width: 1px;
-    padding: 1px
+    padding: 1px;
+    background-color: #31470b;
+    color: #96ac60;
 }
 
 
@@ -105,6 +126,6 @@ main{
 
 .contact > a {
     text-decoration: underline;
+    color: #203500;
+    font-weight: bold;
 }
-
-
