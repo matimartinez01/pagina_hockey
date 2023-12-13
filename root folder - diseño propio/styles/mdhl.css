@@ -1,72 +1,79 @@
 body{
     background-color: #96ac60;
     margin: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 header{
     width: 100%;
     background-color: #31470b;
     height: 80px;
-    box-sizing: border-box;
-    margin-bottom: 540px;
+    margin-bottom: 520px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .titulo{
     display: inline;
-    position: relative;
     color: #96ac60;
     font-size: 30px;
     margin-left: 15px;
-    font-family: 'Courier New', Courier, monospace;
-    bottom: 30px
 }
 
 .logo{
     display: inline;
     height: 80px;
     width: 80px;
-    position: relative;
-    left: 20%
+    align-items: center;
+    margin-left: 50px
 }
 
 .navegador{
     text-align: right;
+    margin-right: 25px;
 }
 
 .div_nav{
     display: inline;
-    position: relative;
-    bottom: 55px;
-    margin-left: 8px;
-    margin-right: 5px;
 }
 
 .navegacion{
     font-size: 18px;
     color: #96ac60;
-    margin-right: 5px;
-    font-family: 'Courier New', Courier, monospace;
     text-decoration: none;
+    margin-right: 20px;
 }
+
+a:hover{
+    background-color: #808000;
+}
+
+a[href="#"]{
+    text-decoration: underline;
+}
+
 
 .div_foto_head{
     width: 80%;
-    margin: 20px auto 0px auto
+    margin: 10px auto 0px auto;
 }
 
 .foto_head{
     height: 500px;
-    position: relative;
-    bottom: 30px;
     width: 100%;
 }
+
+
+
 
 .subtitulo{
     color: #203500;
     font-weight: bold;
     font-size: 30px;
     text-align: center;
+    margin-bottom: 0;
 }
 
 .div_evento{
@@ -77,8 +84,9 @@ header{
 .evento{
     color: #203500;
     font-weight: bold;
-    position: relative;
     margin-bottom: 0;
+    font-size: 22px;
+    text-decoration: underline;
 }
 
 .p_evento{
@@ -95,4 +103,59 @@ header{
 p > a{
     color: #203500;
     font-weight: bold;
+}
+
+.descripcion{
+    text-align: center;
+    margin-top: 0;
+    font-style: oblique;
+    text-decoration: underline;
+    color: #203500;
+}
+
+.lista_letras{
+    list-style: lower-latin;
+}
+
+#ul{
+    list-style: circle;
+}
+
+.subtitulo_h4{
+        color: #203500;
+        font-weight: bold;
+        margin-bottom: 5px;
+        font-size: 20px;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+table{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+th, td{
+    height: 60px;
+    width: 300px;
+    text-align: justify;
+    font-size: 17px;
+    color: #203500
+}
+
+#aclaracion{
+    margin-bottom: 65px;
+}
+
+#info_add{
+    display: flex;
+    justify-content: space-between;
+}
+
+#info_add > p > a{
+    font-weight: normal;
 }
