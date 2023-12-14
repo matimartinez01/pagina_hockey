@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Mighty Ducks</title>
+    <link rel="stylesheet" href="./styles/mdhl.css">
+    <link rel="shortcut icon" href="./imagenes/LogoMightyDuck01.png" type="image/x-icon">
+</head>
+
+<body>
+    <header id="registration_page">
+        <h1 class="titulo">Mighty Ducks Hockey League</h1>
+        <img class="logo" src="./imagenes/LogoMightyDuck01.png" alt="Logo Mighty Ducks">
+        <nav class="navegador">
+            <div class="div_nav"><a class="navegacion" href="./index.html">Home</a></div>
+            <div class="div_nav"><a class="navegacion" href="./about.html">About MDHL</a></div>
+            <div class="div_nav"><a class="navegacion" href="./contact.html">Contact</a></div>
+            <div class="div_nav"><a class="navegacion" href="./game_info.html">Game Information</a></div>
+            <div class="div_nav"><a class="navegacion" href="./rules.html">Rules</a></div>
+            <div class="div_nav"><a class="navegacion" href="#">Registration Form</a></div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="div_evento">
+            <h2 class="subtitulo">Registration</h2>
+            <form action="./show_data.html">
+                <fieldset>
+                    <div class="form1">
+                        <div class="form2">
+                            <label for="nombre">Player's First Name: </label>
+                            <input type="text" name="firstName" id="nombre">
+                        </div>
+                        <div class="form2">
+                            <label for="apellido">Last Name: </label>
+                            <input type="text" name="lastName" id="apellido">
+                        </div>
+                    </div>
+
+                    <div>
+                        <label for="direccion">Street address: </label>
+                        <input type="text" name="address" id="direccion">
+                    </div>
+
+                    <div class="form1">
+                        <div class="form2">
+                            <label for="ciudad">City: </label>
+                            <input type="text" name="city" id="ciudad">
+                        </div>
+                        <div class="form2">
+                            <label for="codigopostal">ZipCode: </label>
+                            <input type="text" name="zipCode" id="codigopostal">
+                        </div>
+                    </div>
+
+                    <div class="form1">
+                        <div class="form2">
+                            <label for="nacimiento">Birth Date (mm/dd/yyyy): </label>
+                            <input type="text" name="birthDate" id="nacimiento">
+                        </div>
+                        <div class="form2">
+                            <label>Gender: </label>
+                            <div class="form4">
+                                <label for="male">Male </label>
+                                <input type="radio" name="gender" id="male" value="male">
+                            </div>
+                            <div class="form4">
+                                <label for="female">Female </label>
+                                <input type="radio" name="gender" id="female" value="female">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <label>Grade: </label>
+                        <div class="form4">
+                            <input type="radio" name="grade" id="preschool" value="pre-school">
+                            <label for="preschool" class="label_formulario">Pre-School </label>
+                        </div>
+                        <div class="form4">
+                            <input type="radio" name="grade" id="1st" value="1st">
+                            <label for="1st" class="label_formulario">1st </label>
+                        </div>
+                        <div class="form4">
+                            <input type="radio" name="grade" id="2nd" value="2nd">
+                            <label for="2nd" class="label_formulario">2nd </label>
+                        </div>
+                        <div class="form4">
+                            <input type="radio" name="grade" id="3rd" value="3rd">
+                            <label for="3rd" class="label_formulario">3rd </label>
+                        </div>
+                        <div class="form4">
+                            <input type="radio" name="grade" id="4th" value="4th">
+                            <label for="4th" class="label_formulario">4th </label>
+                        </div>
+                        <div class="form4">
+                            <input type="radio" name="grade" id="5th" value="5th">
+                            <label for="5th" class="label_formulario">5th </label>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <h3 class="evento">Wich elementary school do you live near?</h3>
+                    <h4 class="subtitulo_h4">Closest School: </h4>
+                    <div class="form3">
+                        <div class="form4">
+                            <input type="radio" name="closestSchool" id="AJ" value="aj katzenmaier">
+                            <label for="AJ" class="label_formulario">AJ Katzenmaier</label>
+                        </div>
+                        <div class="form4">
+                            <input type="radio" name="closestSchool" id="GREENBAY" value="greenbay">
+                            <label for="GREENBAY" class="label_formulario">Greenbay</label>
+                        </div>
+                        <div class="form4">
+                            <input type="radio" name="closestSchool" id="HOWARD" value="howard a yeager">
+                            <label for="HOWARD" class="label_formulario">Howard A Yeager</label>
+                        </div>
+                        <div class="form4">
+                            <input type="radio" name="closestSchool" id="MARJORIE" value="marjorie p hart">
+                            <label for="MARJORIE" class="label_formulario">Marjorie P Hart</label>
+                        </div>
+                        <div class="form4">
+                            <input type="radio" name="closestSchool" id="NORTH_EL" value="north elementary">
+                            <label for="NORTH_EL" class="label_formulario">North Elementary</label>
+                        </div>
+                        <div class="form4">
+                            <input type="radio" name="closestSchool" id="SOUTH_EL" value="south elementary">
+                            <label for="SOUTH_EL" class="label_formulario">South Elementary</label>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <h3 class="evento">What position(s) do you normally play? (check all that apply)</h3>
+                    <div class="form3">
+                        <div class="form4">
+                            <input type="checkbox" name="position" id="GOALKEEPER" value="goalkeeper">
+                            <label for="GOALKEEPER" class="label_formulario">Goalkeeper</label>
+                        </div>
+                        <div class="form4">
+                            <input type="checkbox" name="position" id="DEFENSE" value="defense">
+                            <label for="DEFENSE" class="label_formulario">Defense</label>
+                        </div>
+                        <div class="form4">
+                            <input type="checkbox" name="position" id="MIDFIELD" value="midfield">
+                            <label for="MIDFIELD" class="label_formulario">Midfield</label>
+                        </div>
+                        <div class="form4">
+                            <input type="checkbox" name="position" id="FORWARD" value="forward">
+                            <label for="FORWARD" class="label_formulario">Forward</label>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <h3 class="evento">Uniform Size</h3>
+                    <div class="form3">
+                        <div class="form4">
+                            <input type="radio" name="uniform size" id="YOUTHS" value="youth small">
+                            <label for="YOUTHS" class="label_formulario">Youth Small</label>
+                        </div>
+                        <div class="form4">
+                            <input type="radio" name="uniform size" id="YOUTHM" value="youth medium">
+                            <label for="YOUTHM" class="label_formulario">Youth Medium</label>
+                        </div>
+                        <div class="form4">
+                            <input type="radio" name="uniform size" id="YOUTL" value="youth large">
+                            <label for="YOUTL" class="label_formulario">Youth Large</label>
+                        </div>
+                        <div class="form4">
+                            <input type="radio" name="uniform size" id="SMALL" value="small">
+                            <label for="SMALL" class="label_formulario">Small</label>
+                        </div>
+                        <div class="form4">
+                            <input type="radio" name="uniform size" id="MEDIUM" value="Medium">
+                            <label for="MEDIUM" class="label_formulario">Medium</label>
+                        </div>
+                        <div class="form4">
+                            <input type="radio" name="uniform size" id="LARGE" value="large">
+                            <label for="LARGE" class="label_formulario">Large</label>
+                        </div>
+                        <div class="form4">
+                            <input type="radio" name="uniform size" id="EXLARGE" value="extra large">
+                            <label for="EXLARGE" class="label_formulario">Extra Large</label>
+                        </div>
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <h4 class="subtitulo_h4">Permission to Play</h4>
+                    <p class="p_evento">I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Mighty Ducks Hockey League (MDHL).
+                    In recognizing the possibility of physical injury associated with hockey and in consideration for the "League" accepting the registrant for its hockey programs
+                    and activities, I hereby release, discharge, and/or otherwise indemnify MDHL, their employees and associated personnel and volunteers, including the facilities 
+                    used for practices and games, against any claim by or on behalf of the registrant as a result of the registran's participation in the programand/orbeign transported 
+                    to or from MDHL sponsored activities, wich transportation.
+                    By signing below, I hereby agree and authorize the above. In addition, by signing below, also acknowledge that I have read the cancellation policy and agree to its 
+                    terms.              
+                    </p>
+                    <div>
+                        <label for="firma">Parent/GuardianSignature: </label>
+                        <input type="text" name="signature" id="firma">
+                    </div>
+                    <div>
+                        <label for="fecha_firma">Date: </label>
+                        <input type="text" name="date_signature" id="fecha_firma">
+                    </div>
+
+                </fieldset>
+
+                <input type="submit">
+            </form>
+
+        </div>
+    </main>
+
+
+
+</body>

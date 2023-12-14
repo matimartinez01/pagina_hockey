@@ -1,7 +1,7 @@
 body{
     background-color: #96ac60;
     margin: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header{
@@ -92,7 +92,7 @@ a[href="#"]{
 .p_evento{
     font-size: 20px;
     margin-left: 30px;
-    color: #203500;
+    color: black;
     margin-top: 0;
 }
 
@@ -101,7 +101,7 @@ a[href="#"]{
 }
 
 p > a{
-    color: #203500;
+    color: black;
     font-weight: bold;
 }
 
@@ -110,7 +110,7 @@ p > a{
     margin-top: 0;
     font-style: oblique;
     text-decoration: underline;
-    color: #203500;
+    color: black;
 }
 
 .lista_letras{
@@ -130,20 +130,24 @@ p > a{
 
 .negrita{
     font-weight: bold;
+    color: #203500
 }
 
 table{
     display: flex;
     justify-content: center;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     width: 100%;
 }
 
-th, td{
+td, th{
     height: 60px;
     width: 300px;
     text-align: justify;
-    font-size: 17px;
+    font-size: 17px;;
+}
+
+th{
     color: #203500
 }
 
@@ -158,4 +162,106 @@ th, td{
 
 #info_add > p > a{
     font-weight: normal;
+}
+
+
+label{
+        font-size: 20px;
+        margin-left: 30px;
+        color: black;
+        margin-top: 0;
+        margin-left: 0px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form1{
+    display: flex;
+    justify-content: space-between
+
+}
+
+.form2{
+    display: inline;
+}
+
+.form3{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 120px;
+    justify-content: space-evenly
+}
+
+.form4{
+    display: inline;
+}
+
+.label_formulario{
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+#grado{
+    margin-left: 8px;
+}
+
+input[type=text]{
+    width:450px;
+    background: none;
+    border: none;
+    border-bottom: black solid 1px;
+}
+
+fieldset > .p_evento {
+    margin-left: 0px;
+}
+
+fieldset{
+    border: none;
+}
+
+input[type=submit]{
+    width: 20%;
+    height: 50px;
+    background-color: #203500;
+    color: #808000;
+    border: none;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px auto 20px auto;
+}
+
+input[type=submit]:hover{
+    background-color: #808000;
+    color: #203500;
+    border: solid #203500 2px;
+    cursor: pointer
+}
+
+input[type=radio]:hover{
+    cursor: pointer
+}
+
+input[type=checkbox]:hover{
+    cursor: pointer
+}
+
+iframe{
+    height: 150px;
+    width: 200px;
+}
+
+#registration_page{
+    margin-bottom: 20px;
+}
+
+#registration_page > img{
+    margin-left: 280px;
 }
